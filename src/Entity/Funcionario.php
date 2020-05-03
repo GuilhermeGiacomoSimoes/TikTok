@@ -7,7 +7,7 @@ class Funcionario {
     private $dataDeEntrada;
 
     public function getNome(){
-        return $nome;
+        return $this->nome;
     }
 
     public function setNome($nome) {
@@ -15,7 +15,7 @@ class Funcionario {
     }
 
     public function getDataDeNascimento(){
-        return $dataDeNascimento;
+        return $this->dataDeNascimento;
     }
 
     public function setDataDeNascimento($dataDeNascimento){
@@ -23,7 +23,7 @@ class Funcionario {
     }
 
     public function getDataDeEntrada() {
-        return $dataDeEntrada;
+        return $this->dataDeEntrada;
     }
 
     public function setDataDeEntrada($dataDeEntrada) {
